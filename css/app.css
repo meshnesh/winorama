@@ -1,9 +1,13 @@
 .expanded{
-    background: url("../img/first.jpg");
-    height: 1200px;
-}
-p{
-    color: #000;
+    background: url("../img/second.jpg");
+    height: 100vh;
+}ul{
+     margin-top: 30%;
+ }
+
+li{
+    color: #fff;
+    margin-left: 70%;
 }
 
 /*NAVIGATION*/
