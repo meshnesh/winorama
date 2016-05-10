@@ -1,147 +1,17 @@
 .expanded{
     background: url("../img/second.jpg");
+    background-size: cover;
     height: 100vh;
 }
-/*LIST FOR THE WINES*/
-* {margin: 0; padding: 0;}
-
-div {
-    margin: 20px;
-}
-
-ul {
-    list-style-type: none;
-    width: 500px;
-}
-
-h3 {
-    font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
-}
-
-li img {
-    float: left;
-    margin: 0 15px 0 0;
-}
-
-li p {
-    font: 200 12px/1.5 Georgia, Times New Roman, serif;
-}
-
-li {
-    padding: 10px;
-    overflow: auto;
-}
-
-li:hover {
-    background: #eee;
-    cursor: pointer;
-}
 
 
-/*NAVIGATION*/
-.menu{
-    height: 100%;
-    overflow: hidden;
-}
+/* Smartphones (portrait) ----------- */
 
-.menu-container {
-    will-change: transform, height;
-    width: 300px;
-    height: 500px;
-    background-color: #651121;
-    padding-left: 100px;
-    box-sizing: border-box;
-    -webkit-transform: translate3d(-330px, -210px, 0px)  rotate(45deg);
-    transform: translate3d(-330px, -210px, 0px)  rotate(45deg);
-    margin: 0;
-    position: relative;
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-}
+@media only screen and (max-width: 1024px) {
+    .expanded{
+        background: url("../img/second.jpg");
+        background-size: cover;
+        height: 100vh;
 
-nav.active .menu-container {
-    height: 200%;
-    -webkit-transform: translate3d(-100px, 0px, 0px)  rotate(0deg);
-    transform: translate3d(-100px, 0px, 0px)  rotate(0deg);
+    }
 }
-
-.menu-list{
-    margin: 0;
-    padding: 50px 20px 20px 50px;
-    list-style: none;
-}
-.menu-item{
-    padding: .5rem 0;
-}
-.menu-link{
-    color: #fff;
-    text-decoration: none;
-    font-family: Helvetica, Arial;
-    text-transform: uppercase;
-    font-size: .9rem;
-    font-weight: bold;
-    opacity: 0;
-    -webkit-transition: opacity .3s;
-    transition: opacity .3s;
-}
-
-nav.active .menu-link{
-    opacity: 1;
-    -webkit-transition-delay: .3s;
-    transition-delay: .3s;
-}
-
-
-.menu-toggle{
-    display: block;
-    position: absolute;
-    height: 15px;
-    width: 20px;
-    top: 12px;
-    left: 12px;
-    background: transparent;
-    cursor: pointer;
-}
-
-
-.menu-hamburger, .menu-hamburger:before, .menu-hamburger:after{
-    background-color: #fff;
-    height: 3px;
-    width: 20px;
-    display: block;
-    -webkit-transition: all .3s;
-    transition: all .3s;
-}
-
-.menu-hamburger {
-    position: relative;
-    top: 5px;
-    left: 0px;
-}
-
-.menu-hamburger:before{
-    content:"";
-    position: absolute;
-    top: -6px;
-}
-.menu-hamburger:after{
-    content: "";
-    position: absolute;
-    bottom: -6px;
-}
-
-.menu.active .menu-hamburger{
-    background: transparent;
-}
-.menu.active .menu-hamburger:before{
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    top: 0px;
-}
-
-.menu.active .menu-hamburger:after{
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
-    bottom: 0px;
-}
-
