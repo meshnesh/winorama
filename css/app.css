@@ -111,6 +111,11 @@ p{
 }
 
 
+li{
+    padding: 15px;
+}
+
+
 /* Smartphones (portrait) ----------- */
 
 @media only screen and (max-width: 1024px) {
