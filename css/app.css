@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Montez|Pompiere);
 .expanded{
     background: url("../img/second.jpg");
     background-size: cover;
@@ -137,7 +138,7 @@ p{
 
 /*LOGIN PAGE CSS*/
 
-@import url(https://fonts.googleapis.com/css?family=Montez|Pompiere);
+
 * {
     box-sizing: content-box;
     margin: 0;
@@ -359,3 +360,21 @@ form button:hover {
     }
 }
 
+@media only screen and (max-width: 1024px) {
+    form input {
+        margin-right: 25%;
+        outline: 0;
+        border: 1px solid rgba(0, 0, 255, 0.2);
+        background-color: rgba(0, 0, 0, 0.8);
+        width: 60%;
+        border-radius: 5px;
+        padding: 10px 15px;
+        display: block;
+        text-align: center;
+        font-size: 18px;
+        color: #000;
+        transition-duration: 0.5s;
+        font-weight: 300;
+    }
+
+}
