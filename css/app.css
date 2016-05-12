@@ -139,41 +139,41 @@ p{
 /*LOGIN PAGE CSS*/
 
 
-* {
-    box-sizing: content-box;
-    margin: 0;
-    font-weight: 300;
-    overflow: hidden;
-}
-body {
-    font-family: 'Montez', sans-serif;
-    font-weight: 300;
-}
-body ::-webkit-input-placeholder {
-    /* WebKit browsers */
-    font-family: 'Pompiere', sans-serif;
-    color: #fff;
-    font-weight: 300;
-    font-size: 20px;
-}
-body :-moz-placeholder {
-    /* Mozilla Firefox 4 to 18 */
-    font-family: 'Pompiere', sans-serif;
-    color: #fff;
-    opacity: 1;
-    font-weight: 300;
-}
-body ::-moz-placeholder {
-    font-family: 'Pompiere', sans-serif;
-    color: #fff;
-    opacity: 1;
-    font-weight: 300;
-}
-body :-ms-input-placeholder {
-    font-family: 'Pompiere', sans-serif;
-    color: #fff;
-    font-weight: 300;
-}
+/** {*/
+    /*box-sizing: content-box;*/
+    /*margin: 0;*/
+    /*font-weight: 300;*/
+    /*overflow: hidden;*/
+/*}*/
+/*body {*/
+    /*font-family: 'Montez', sans-serif;*/
+    /*font-weight: 300;*/
+/*}*/
+/*body ::-webkit-input-placeholder {*/
+    /*!* WebKit browsers *!*/
+    /*font-family: 'Pompiere', sans-serif;*/
+    /*color: #fff;*/
+    /*font-weight: 300;*/
+    /*font-size: 20px;*/
+/*}*/
+/*body :-moz-placeholder {*/
+    /*!* Mozilla Firefox 4 to 18 *!*/
+    /*font-family: 'Pompiere', sans-serif;*/
+    /*color: #fff;*/
+    /*opacity: 1;*/
+    /*font-weight: 300;*/
+/*}*/
+/*body ::-moz-placeholder {*/
+    /*font-family: 'Pompiere', sans-serif;*/
+    /*color: #fff;*/
+    /*opacity: 1;*/
+    /*font-weight: 300;*/
+/*}*/
+/*body :-ms-input-placeholder {*/
+    /*font-family: 'Pompiere', sans-serif;*/
+    /*color: #fff;*/
+    /*font-weight: 300;*/
+/*}*/
 .wrapper {
     background: #111;
     background: -webkit-linear-gradient(top left, #000 0%, #fff 100%);
@@ -362,7 +362,7 @@ form button:hover {
 
 @media only screen and (max-width: 1024px) {
     form input {
-        margin-right: 25%;
+        margin-right: 18%;
         outline: 0;
         border: 1px solid rgba(0, 0, 255, 0.2);
         background-color: rgba(0, 0, 0, 0.8);
@@ -379,7 +379,7 @@ form button:hover {
 
 
     form button {
-        margin-right: 18%;
+        margin-right: 4%;
         font-family: Pompiere;
         background-color: #fff;
         border: 0;
@@ -392,5 +392,14 @@ form button:hover {
         font-weight: 600;
         transition-duration: 0.25s;
     }
+
+    .container h1 {
+
+        font-size: 40px;
+        transition-duration: 2s;
+        transition-timing-function: ease-in-out;
+        font-weight: 400;
+    }
+
 
 }
