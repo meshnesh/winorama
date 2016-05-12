@@ -1,5 +1,5 @@
 body {
-    background: #9ba5a8;
+    background: #3adb76;
     margin: 0;
 }
 
@@ -23,7 +23,31 @@ body {
 .right {
     margin-left: 50%;
     background: #9ba5a8;
+    position: fixed;
+    width: 50%;
+    height: 100%;
 }
+
+
+
+
+/* Split screen attivo soltanto sopra i 48em */
+@media (max-width: 1200px) {
+    .left{
+        height:50%;
+        width:100%;
+    }
+    .right{
+        margin-left: 0%;
+        top: 50%;
+        height:50%;
+        width: 100%;
+    }
+}
+
+
+
+
 
 
 
