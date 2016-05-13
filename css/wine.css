@@ -28,10 +28,18 @@ body {
     height: 100%;
 }
 
+.small-6 {
+    width: 100%;
+}
 
+.thumbnail{
+    margin-top: 15%;
+    margin-left: 20%;
+}
 
 
 /* Split screen attivo soltanto sopra i 48em */
+
 @media (max-width: 1200px) {
     .left{
         height:50%;
@@ -44,13 +52,33 @@ body {
         width: 100%;
     }
 
-    .thumbnail {
-        border: solid 4px #fefefe;
-        max-width: 60%;
-        margin-top: 15%;
+    .wine {
+        margin-top: 15px;
+    }
+    .small-6 {
+        width: 50%;
+    }
+
+    .thumbnail{
+        max-width: 55%;
+        margin-top: 0%;
+        margin-left: 15%;
     }
 }
 
+
+@media (max-width: 500px) {
+    .thumbnail{
+        max-width: 107%;
+        margin-top: 0%;
+        margin-left: 10%;
+    }
+
+    .wine {
+        margin-top: 15%;
+    }
+
+}
 
 
 
