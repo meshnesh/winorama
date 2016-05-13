@@ -359,3 +359,10 @@ textarea {
     }
 
 }
+
+
+
+.button.success {
+    float: right;
+    margin-right: 10%;
+}
