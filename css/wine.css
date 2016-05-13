@@ -363,6 +363,7 @@ textarea {
 
 
 .button.success {
+    border-radius: 4%;
     float: right;
     margin-right: 10%;
 }
