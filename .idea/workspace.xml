@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51947276-d4c9-47c3-86c2-cce961f42155" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/login.html" afterPath="$PROJECT_DIR$/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wine.html" afterPath="$PROJECT_DIR$/wine.html" />
-    </list>
+    <list default="true" id="51947276-d4c9-47c3-86c2-cce961f42155" name="Default" comment="" />
     <ignored path="winorama.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -299,12 +295,12 @@
       <workItem from="1462294992327" duration="417000" />
       <workItem from="1462349202933" duration="2340000" />
       <workItem from="1462421785515" duration="167000" />
-      <workItem from="1462787197689" duration="27501000" />
+      <workItem from="1462787197689" duration="27773000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31243000" />
+    <option name="totallyTimeSpent" value="31515000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
