@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51947276-d4c9-47c3-86c2-cce961f42155" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wine.html" afterPath="$PROJECT_DIR$/wine.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/wine.css" afterPath="$PROJECT_DIR$/css/wine.css" />
     </list>
     <ignored path="winorama.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,7 +33,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wine.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wine.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wine.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="671">
@@ -44,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wine.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="wine.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/wine.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="69" column="20" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
+            <state relative-caret-position="1496">
+              <caret line="276" column="1" selection-start-line="276" selection-start-column="1" selection-end-line="276" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -115,8 +114,8 @@
         <option value="$PROJECT_DIR$/css/foundation.css" />
         <option value="$PROJECT_DIR$/css/app.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/css/wine.css" />
         <option value="$PROJECT_DIR$/wine.html" />
+        <option value="$PROJECT_DIR$/css/wine.css" />
       </list>
     </option>
   </component>
@@ -287,12 +286,12 @@
       <workItem from="1462294992327" duration="417000" />
       <workItem from="1462349202933" duration="2340000" />
       <workItem from="1462421785515" duration="167000" />
-      <workItem from="1462787197689" duration="20826000" />
+      <workItem from="1462787197689" duration="20926000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24568000" />
+    <option name="totallyTimeSpent" value="24668000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -430,18 +429,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/wine.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="69" column="20" selection-start-line="69" selection-start-column="20" selection-end-line="69" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wine.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="671">
           <caret line="63" column="22" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/wine.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="276" column="1" selection-start-line="276" selection-start-column="1" selection-end-line="276" selection-end-column="1" />
           <folding />
         </state>
       </provider>
