@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="51947276-d4c9-47c3-86c2-cce961f42155" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/wine.css" afterPath="$PROJECT_DIR$/css/wine.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wine.html" afterPath="$PROJECT_DIR$/wine.html" />
     </list>
     <ignored path="winorama.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,17 +33,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wine.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="wine.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wine.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="77" column="12" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
+            <state relative-caret-position="468">
+              <caret line="80" column="60" selection-start-line="80" selection-start-column="60" selection-end-line="80" selection-end-column="60" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wine.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wine.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/wine.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="243">
@@ -114,8 +114,8 @@
         <option value="$PROJECT_DIR$/css/foundation.css" />
         <option value="$PROJECT_DIR$/css/app.css" />
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/wine.html" />
         <option value="$PROJECT_DIR$/css/wine.css" />
+        <option value="$PROJECT_DIR$/wine.html" />
       </list>
     </option>
   </component>
@@ -286,12 +286,12 @@
       <workItem from="1462294992327" duration="417000" />
       <workItem from="1462349202933" duration="2340000" />
       <workItem from="1462421785515" duration="167000" />
-      <workItem from="1462787197689" duration="26128000" />
+      <workItem from="1462787197689" duration="26269000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29870000" />
+    <option name="totallyTimeSpent" value="30011000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -429,18 +429,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wine.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="77" column="12" selection-start-line="77" selection-start-column="12" selection-end-line="77" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/wine.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="331" column="20" selection-start-line="331" selection-start-column="20" selection-end-line="331" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wine.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="80" column="60" selection-start-line="80" selection-start-column="60" selection-end-line="80" selection-end-column="60" />
           <folding />
         </state>
       </provider>
