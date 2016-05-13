@@ -43,6 +43,12 @@ body {
         height:50%;
         width: 100%;
     }
+
+    .thumbnail {
+        border: solid 4px #fefefe;
+        max-width: 60%;
+        margin-top: 15%;
+    }
 }
 
 
