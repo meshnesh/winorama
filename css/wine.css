@@ -322,22 +322,35 @@ p{
 
 /*REVIEWS*/
 
-/*input{*/
-    /*margin-left: 40%;*/
-/*}*/
 
 
-/*@media (max-width: 1200px) {*/
-    /*input{*/
-        /*margin-left: 40%;*/
-    /*}*/
+textarea {
+    text-align: center;
+    margin: 0px 0px 0px 115.188px;
+    width: 402px;
+    height: 75px;
+}
 
-/*}*/
 
 
-/*@media (max-width: 600px) {*/
-    /*input{*/
-        /*margin-left: 20%;*/
-    /*}*/
+@media (max-width: 1200px) {
 
-/*}*/
+    textarea {
+        text-align: center;
+        height: auto;
+        width: 230px;
+        min-height: 50px;
+        border-radius: 0;
+    }
+
+}
+
+
+@media (max-width: 600px) {
+    textarea {
+        text-align: center;
+        width: 230px;
+        margin-left: 20%;
+    }
+
+}
