@@ -294,7 +294,7 @@ p{
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .rating {
         width: 100%;
     }
